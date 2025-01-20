@@ -34,11 +34,12 @@ export default {
 				},
 			],
 		],
-    runtimeVersion: {
-      policy: 'appVersion',
-    },
+		runtimeVersion: {
+			policy: "appVersion",
+		},
 		experiments: {
 			typedRoutes: true,
 		},
+		newArchEnabled: true,
 	},
 };
